@@ -1,0 +1,101 @@
+#footer{
+
+}
+#footer .w{
+    margin-top: 100px;
+    background-color: #eaeaea;
+}
+#footer .w .mod_service ul{
+    overflow: hidden;
+}
+#footer .w .mod_service li{
+    float: left;
+    height: 100px;
+    line-height: 100px;
+    margin: 0 15px;
+}
+
+#footer .w .mod_service li div{
+    float: left;
+    width: 36px;
+    height: 42px;
+    margin-top: 28px;
+    background-image: url("../images/footer/ico_service.png");
+}
+#footer .w .mod_service li div.duo{
+    background-position: 0 0;
+}
+#footer .w .mod_service li div.kuai{
+    background-position: 0 -43px;
+}
+#footer .w .mod_service li div.hao{
+    background-position: 0 -86px;
+}
+#footer .w .mod_service li div.sheng{
+    background-position: 0 -129px;
+}
+#footer .w .mod_service li p{
+    float: left;
+    font-size: 18px;
+    color: #444;
+    font-weight: 700;
+}
+#footer .w .mod_help{
+    overflow: hidden;
+    border-top: 2px solid #dedede;
+}
+#footer .w .mod_help .mod_help_nav{
+    float: left;
+    width: 158px;
+    
+}
+#footer .w .mod_help .mod_help_nav dl{
+    padding: 20px;
+}
+#footer .w .mod_help .mod_help_nav dt{
+    font-size: 14px;
+}
+#footer .w .mod_help .mod_help_nav dd{
+    font-size: 12px;
+    padding: 3px 0;
+}
+#footer .w .mod_help .mod_help_cover{
+    margin: 20px;
+    width: 200px;
+    height: 150px;
+    background: url("../images/footer/ico_footer.png") no-repeat 0 0;
+
+}
+#footer .w .mod_copyright{
+    padding-top: 20px;
+    border-top: 2px solid #dedede;
+    text-align: center;
+}
+#footer .w .mod_copyright .copyright_info a{
+    display: block;
+    padding: 5px;
+}
+#footer .w .mod_copyright .copyright_auth a{
+    display: inline-block;
+    width: 103px;
+    height: 32px;
+    background-image: url("../images/footer/ico_footer.png");
+}
+#footer .w .mod_copyright .copyright_auth a.copyright_auth_ico_1{
+    background-position: 0 -151px;  
+}
+#footer .w .mod_copyright .copyright_auth a.copyright_auth_ico_2{
+    background-position: -104px -151px; 
+}
+#footer .w .mod_copyright .copyright_auth a.copyright_auth_ico_3{
+    background-position: 0 -184px;  
+}
+#footer .w .mod_copyright .copyright_auth a.copyright_auth_ico_4{
+    background-position: -104px -184px; 
+}
+#footer .w .mod_copyright .copyright_auth a.copyright_auth_ico_5{
+    background-position: 0 -217px;  
+}
+#footer .w .mod_copyright .copyright_auth a.copyright_auth_ico_6{
+    background-position: -104px -217px; 
+}

@@ -1,0 +1,16 @@
+#header_nav_top{
+	width: 1200px;
+	height: 60px;
+		background-color: #fff;
+	position: fixed;
+	top: 0;
+	z-index: 99;
+	left: 50%;
+	margin-left: -600px;
+	display: none;
+
+}
+#header_nav_top #search{
+	position: absolute;
+	top: -20px;
+}

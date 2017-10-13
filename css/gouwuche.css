@@ -1,0 +1,87 @@
+.gouwuche {
+    position:fixed;
+    top: 50%;
+    right: 0;
+    width: 35px;
+    height: 175px;
+    margin-top: -61px;
+   
+    
+}
+.jdm-toolbar-tab {
+    position: relative;
+    z-index: 10;
+    width: 35px;
+    height: 175px;
+    margin-bottom: 1px;
+    cursor: pointer;
+ /*    background-color: #7a6e6e; */
+  
+    border-radius: 3px 0 0 3px;
+}
+.jdm-toolbar-tab li{
+	position: relative;
+   width: 35px;
+    height: 35px;
+}
+.tab-ico {
+    width: 34px;
+    height: 35px;
+    margin-left: 1px;
+    z-index: 15;
+    position: absolute;
+ 
+    background-color: #7a6e6e;
+     background-image: url("../images/gouwuche/01.png");
+    
+}
+.jdm-toolbar-tab li  p{
+	width: 80px;
+	height: 35px;
+	z-index: 10;
+	position: absolute;
+    left: -79px;
+	right: 20px;
+	font-size: 12px;
+        display: none;
+            font-size: 15px;
+            border-bottom: 1px solid #EFEFEF;
+            text-align: center;
+}
+/* .gouwuche_p{
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	display: none;
+} */
+.tab-text {
+  
+    line-height: 35px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 微软雅黑;
+   position: absolute;
+    z-index:10;
+    left: -50px;
+    font-size: 12px;
+    background-color: rgb(122, 110, 110);
+    border-radius: 3px 0px 0px 3px;
+   
+   
+}
+.icon1{
+	  background-position: -88px -175px;
+     
+}
+.icon2{
+	    background-position: -50px 0;
+}
+.icon3{
+	      background-position: -50px -50px;
+}
+.icon4{
+	       background-position: -50px -100px;
+}
+.icon5{
+	background-position: -190px -150px;
+}

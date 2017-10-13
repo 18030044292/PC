@@ -1,0 +1,97 @@
+.login-main {
+    max-width: 1000px;
+    height: 470px;
+    margin: 0px auto;
+    position: relative;
+}
+.login-box {
+  
+    max-width: 360px;
+    height: 430px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 0px;
+    background: #f8f8f8;
+    right:-70px;
+    padding: 10px 20px;
+}
+.am-tabs ul{
+
+  list-style:none;
+}
+.am-tabs ul li{
+	display: block;
+	float: left;
+	margin: 10px 38px;
+	font-size: 20px;
+	z-index: 99;
+}
+.am-tabs{
+	position: relative;
+	width: 100%;
+	height: 360px;
+
+}
+form label {
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background: #fff;
+    text-align: center;
+    top: 1px;
+    left: -20px;
+}
+
+form input {
+    font-size: 14px;
+    line-height: 18px;
+    height: 42px;
+   	position: absolute;
+   	left: 18px;
+    width: 100%;
+    border: 1px solid #fff;
+}
+.am-active {
+    position: relative;
+  top: 50px;
+   
+  
+}
+.yx1{
+	display: block;
+}
+.am-none{
+	display: none;
+}
+.zcys{
+	width: 16px;
+	height: 16px;
+}
+label input{
+    font-size: 14px;
+}
+.cb2{
+	clear: both;
+	height:40px;
+}
+#dyMobileButton {
+    margin-left: 10px;
+    border: 1px solid #DDD;
+    padding: 0px;
+    width: 15%;
+    height: 40px;
+    background: #F4F4F4 none repeat scroll 0% 0%;
+    margin-top: 0px;
+    text-align: center;
+    line-height: 40px;
+    color: #333;
+    text-decoration: none;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+#code {
+    width: 75%;
+}

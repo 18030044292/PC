@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/login.css">
+		<link rel="stylesheet" href="css/register.css">
+		<link rel="stylesheet" href="css/introduction.css">
+</head>
+<body>
+	<div class="login-boxtitle">
+		<a href="">
+			<img src="images/login/1.jpg" alt="">
+		</a>
+	</div>
+	<div class="login-banner" >
+		<div class="login-main">
+			<div class="login-banner-bg">
+				<img src="images/login/2.jpg" alt="">
+			</div>
+			<div class="login-box">
+				<div class="am-tabs">
+					<ul>
+					<li id="zc1" ><a  href="">邮箱注册</a></li>
+					<li  id="zc2"><a  href="">手机注册</a></li>
+				</ul>
+					<div class="am-tabs-bd">
+						<div class="am-tab-panel am-active yx1 ">
+							<form method="post">
+										
+							   <div class="user-email">
+										<label for="email"><i class="am-icon-envelope-o"><img class="zcys"src="images/register/邮件.png" alt=""></i></label>
+										<input type="email" name="" id="email" placeholder="请输入邮箱账号">
+                 </div>										
+                 <div class="user-pass">
+								    <label for="password"><i class="am-icon-lock">
+								    	<img class="zcys"src="images/register/密码.png" alt="">
+								    </i></label>
+								    <input type="password" name="" id="password" placeholder="设置密码">
+                 </div>										
+                 <div class="user-pass">
+								    <label for="passwordRepeat"><i class="am-icon-lock"><img class="zcys"src="images/register/密码.png" alt=""></i></label>
+								    <input type="password" name="" id="passwordRepeat" placeholder="确认密码">
+                 </div>	
+                 
+                 </form>
+                 <div class="cb1"></div>
+                  <div class="login-links">
+										<label for="reader-me">
+											<input id="reader-me" type="checkbox"> 点击表示您同意商城《服务协议》
+										</label>
+							  	</div>
+							  	<div class="cb2"></div>
+							  	<div class="am-cf">
+					<input class=".am-btn-sm  am-btn-primary  am-btn " type="submit" value="邮箱注册">
+				</div>
+						</div>
+					</div>
+						<div class="am-tab-panel am-active am-none sj1">
+								<form method="post">
+                 <div class="user-phone">
+								    <label for="phone"><i class="am-icon-mobile-phone am-icon-md">
+								    	<img class="zcys"src="images/register/手机.png" alt="">
+								    </i></label>
+								    <input type="tel" name="" id="phone" placeholder="请输入手机号">
+                 </div>																			
+										<div class="verification">
+											<label for="code"><i class="am-icon-code-fork"><img class="zcys"src="images/register/验证码.png" alt=""></i></label>
+											<input type="tel" name="" id="code" placeholder="请输入验证码">
+											<a class="btn" href="javascript:void(0);" onClick="sendMobileCode();" id="sendMobileCode">
+												<span id="dyMobileButton">获取</span></a>
+										</div>
+                 <div class="user-pass">
+								    <label for="password"><i class="am-icon-lock"><img class="zcys"src="images/register/密码.png" alt=""></i></label>
+								    <input type="password" name="" id="password" placeholder="设置密码">
+                 </div>										
+                 <div class="user-pass">
+								    <label for="passwordRepeat"><i class="am-icon-lock"><img class="zcys"src="images/register/密码.png" alt=""></i></label>
+								    <input type="password" name="" id="passwordRepeat" placeholder="确认密码">
+                 </div>	
+									</form>
+                 <div class="cb1"></div>
+                  <div class="login-links">
+										<label for="reader-me">
+											<input id="reader-me" type="checkbox"> 点击表示您同意商城《服务协议》
+										</label>
+							  	</div>
+							  	<div class="cb2"></div>
+							  	<div class="am-cf">
+					<input class=".am-btn-sm  am-btn-primary  am-btn " type="submit" value="手机注册">
+				</div>
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>
+		<div class="footer ">
+						<div class="footer-hd ">
+							<p>
+								
+								<b>|</b>
+								<a href="index.html ">商城首页</a>
+								<b>|</b>
+								<a href="# ">支付宝</a>
+								<b>|</b>
+								<a href="# ">物流</a>
+							</p>
+						</div>
+						<div class="footer-bd ">
+							<p>
+								<a href="# ">关于我们</a>
+								<a href="# ">合作伙伴</a>
+								<a href="# ">联系我们</a>
+								<a href="# ">网站地图</a>
+								<em>© 2015-2025 xxxxx.com 版权所有</em>
+							</p>
+						</div>
+					</div>
+</body>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script>
+	$(function(){
+		$("#zc1").mouseover(function(){
+				$(".yx1").show();
+			$(".am-none").hide();
+		})
+
+		$("#zc2").mouseover(function(){
+				$(".am-none").show();
+			$(".yx1").hide();
+		})
+				})
+</script>
+</html>
